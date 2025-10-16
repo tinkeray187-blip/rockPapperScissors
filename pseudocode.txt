@@ -1,0 +1,43 @@
+1) First create 
+    *- github repo
+    *- .html file
+    *- link it to .js file
+    *- check it with console.log(Rock, Paper, Sissors)
+
+2) Start with logic for function(getComputerChoice)
+    *- getComputerChoice needs to RANDOMLY <return>
+      "rock", "paper", or "Sissors"
+    *- using Math.random method
+    *- test with console.log()
+
+3) Then write logic for getHumanChoice
+    *- create function getHumanChoice
+    *- getHumanChoice needs to return the valid 
+      choice of the user input
+    *- use <prompt> method to get the users input
+    *- test with console.log
+
+4) Keep track of players score variables 
+    - create two variables <humanScore> and 
+      <computerScore>
+    - initialize them with a value of 0
+
+5) Write logic to play a single round
+    - create function <playRound>
+    - define two parameters for <playRound>
+      -<humanChoise>
+      -<computerChoice>
+    - make <humanChoice> case-insensitive
+    - write code for <playRound> function to 
+      console.log("winner", or "loser") to 
+      represent round winner
+    - increment <humanScore> or <computerScore>
+      based on round winner
+
+6) Write logic to play 5 round game
+    - create function <playGame> that calls
+      <playRound> for 5 rounds and keeps track 
+      of score and declares winner
+    - move <playRound> function and score variables
+      INSIDE of <playGame> function
+    - play 5 rounds by calling <playRound> 5 times
