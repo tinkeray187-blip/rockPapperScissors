@@ -18,20 +18,20 @@
     *- test with console.log
 
 4) Keep track of players score variables 
-    - create two variables <humanScore> and 
+    *- create two variables <humanScore> and 
       <computerScore>
-    - initialize them with a value of 0
+    *- initialize them with a value of 0
 
 5) Write logic to play a single round
-    - create function <playRound>
-    - define two parameters for <playRound>
+    *- create function <playRound>
+    *- define two parameters for <playRound>
       -<humanChoise>
       -<computerChoice>
-    - make <humanChoice> case-insensitive
-    - write code for <playRound> function to 
+    *- make <humanChoice> case-insensitive
+    *- write code for <playRound> function to 
       console.log("winner", or "loser") to 
       represent round winner
-    - increment <humanScore> or <computerScore>
+    *- increment <humanScore> or <computerScore>
       based on round winner
 
 6) Write logic to play 5 round game
